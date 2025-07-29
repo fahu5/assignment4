@@ -1,0 +1,65 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a6ccf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: rgba(201, 224, 249, 0.8);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  #referenceText {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: #333;
+  }
+  
+  #typedText {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #080707;
+    resize: none;
+    background-color: antiquewhite;
+  }
+  
+  #startBtn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  #startBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #timer {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .results p {
+    margin: 0.5rem 0;
+    font-weight: bold;
+  }
